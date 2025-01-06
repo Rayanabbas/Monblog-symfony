@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+.hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc), url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  .btn-main {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .btn-main:hover {
+    background-color: #e14b3c;
+    transform: scale(1.1);
+  }
+  .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  

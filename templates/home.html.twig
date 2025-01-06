@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil - MonSite{% endblock %}
+
+{% block body %}
+<div class="hero" data-aos="fade-in">
+  <h1 class="display-4" data-aos="fade-down">Bienvenue sur MonSite !</h1>
+  <p class="lead" data-aos="fade-up">Découvrez des fonctionnalités modernes et engageantes.</p>
+  <a href="/about" class="btn btn-main btn-lg" data-aos="zoom-in">En savoir plus</a>
+</div>
+
+<div class="container py-5">
+  <div class="row text-center" data-aos="fade-up">
+    <div class="col-md-4" data-aos="flip-left">
+      <i class="fas fa-laptop-code fa-3x mb-3"></i>
+      <h3>Développement</h3>
+      <p>Explorez les technologies modernes et les solutions personnalisées.</p>
+    </div>
+    <div class="col-md-4" data-aos="flip-right">
+      <i class="fas fa-palette fa-3x mb-3"></i>
+      <h3>Design</h3>
+      <p>Profitez d'un design attrayant et adapté à vos besoins.</p>
+    </div>
+    <div class="col-md-4" data-aos="flip-left">
+      <i class="fas fa-rocket fa-3x mb-3"></i>
+      <h3>Performance</h3>
+      <p>Améliorez les performances avec des outils modernes.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container py-5 bg-light" data-aos="fade-up">
+  <h2 class="text-center mb-4">Témoignages</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="card-text">"Une expérience incroyable avec ce site !"</p>
+          <p class="text-muted">- Client heureux</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="card-text">"Un design moderne et élégant, j'adore !"</p>
+          <p class="text-muted">- Designer</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="card-text">"Les performances sont excellentes, merci !"</p>
+          <p class="text-muted">- Développeur</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
